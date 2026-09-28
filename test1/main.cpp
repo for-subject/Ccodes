@@ -7,7 +7,7 @@
 using namespace std;
 int main()
 {
-   /*
+   
    std::string data="30 40.5";
       std::istringstream iss(data);
       int i;
@@ -21,7 +21,7 @@ int main()
       oss<<i1<<d2;
       std::string str=oss.str();
       std::cout<<str<<std::endl;
-   */
+   
    std::list<int> lst1 = {1, 3, 5, 7};
     std::list<int> lst2 = {2, 4, 6, 8};
     lst1.merge(lst2);
